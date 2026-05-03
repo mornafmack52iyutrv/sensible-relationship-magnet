@@ -1,0 +1,5 @@
+[versions]
+intervene = "3.1.1"
+
+[libraries]
+intervene = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "intervene" }
